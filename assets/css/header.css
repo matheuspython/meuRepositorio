@@ -1,7 +1,7 @@
 header.header {
     width: 100%;
-    height: 80px;
-    background-color: rgb(47, 133, 204);
+    height: 70px;
+    background-color: rgb(107, 114, 121);
 }
 
 .container-header {
@@ -38,7 +38,7 @@ header.header {
 }
 
 .container-header nav.menu-desktop ul li a:hover {
-    color: aqua;
+    color: rgb(72, 31, 255);
     font-size: 1.5rem;
     top: 5px;
     font-weight: 700;
@@ -78,7 +78,7 @@ nav.menu-mobile ul {
         transition: .4s;
     }
     nav.menu-mobile ul {
-        background-color: rgb(42, 89, 192);
+        background-color: rgb(27, 63, 143);
         padding: 8px 0;
         list-style-type: none;
         width: 100%;
@@ -99,6 +99,6 @@ nav.menu-mobile ul {
     nav.menu-mobile ul li a:hover {
         font-size: 1.58rem;
         font-weight: 700;
-        color: rgb(79, 184, 216);
+        color: rgb(25, 175, 221);
     }
 }
