@@ -1,0 +1,104 @@
+header.header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(47, 133, 204);
+}
+
+.container-header {
+    height: 100%;
+    width: 95%;
+    padding: 0 2%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.container-header nav.menu-desktop ul {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.container-header nav.menu-desktop ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: .4s;
+    position: relative;
+}
+
+.container-header nav.menu-desktop ul li a:hover {
+    color: aqua;
+    font-size: 1.5rem;
+    top: 5px;
+    font-weight: 700;
+}
+
+.btn-menu-mobile {
+    display: none;
+}
+
+nav.menu-mobile {
+    display: none;
+}
+
+nav.menu-mobile ul {
+    display: none;
+}
+
+
+/*inicio media queries*/
+
+@media screen and (max-width: 800px) {
+    nav.menu-desktop {
+        display: none;
+    }
+    .btn-menu-mobile {
+        display: block;
+        cursor: pointer;
+        background-image: url('../images/menu.svg');
+        background-position: center;
+        background-size: cover;
+        height: 30px;
+        width: 30px;
+    }
+    nav.menu-mobile {
+        display: none;
+        height: 180px;
+        transition: .4s;
+    }
+    nav.menu-mobile ul {
+        background-color: rgb(42, 89, 192);
+        padding: 8px 0;
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    nav.menu-mobile ul li a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 20px;
+        transition: .4s;
+    }
+    nav.menu-mobile ul li a:hover {
+        font-size: 1.58rem;
+        font-weight: 700;
+        color: rgb(79, 184, 216);
+    }
+}
