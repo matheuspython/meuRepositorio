@@ -1,0 +1,37 @@
+.box-tecnologias {
+    display: inline-block;
+    width: 280px;
+    padding: 10px 0;
+    border: 1px solid white;
+    margin: 8px auto;
+    border-radius: 12px;
+}
+
+.box-tecnologias:hover {
+    width: 300px;
+    padding: 15px 0;
+    font-size: 1.2rem;
+}
+
+.box-tecnologias .img {
+    background: url('https://www.flaticon.com/svg/static/icons/svg/1051/1051277.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 8px auto;
+}
+
+
+/*inicio media queries*/
+
+@media screen and (max-width: 320px) {
+    .box-tecnologias {
+        width: 100%;
+        margin: 4px 0;
+    }
+    .box-tecnologias:hover {
+        width: 100%;
+    }
+}
