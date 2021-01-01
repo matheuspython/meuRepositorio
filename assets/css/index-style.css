@@ -80,6 +80,47 @@ section.projetos .container-projetos>h2 {
     font-size: 30px;
 }
 
+section.contato {
+    padding-top: 20px;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.container-contato {
+    width: 95%;
+    padding: 15px 2%;
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-contato h1 {
+    text-transform: uppercase;
+}
+
+.container-contato ul {
+    list-style-type: none;
+}
+
+.container-contato ul li a {
+    color: white;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.container-contato ul li a:hover {
+    font-size: 1.3rem;
+}
+
+.container-contato ul li a img {
+    position: relative;
+    top: 7px;
+    right: 5px;
+}
+
 
 /*inicio media queries*/
 
