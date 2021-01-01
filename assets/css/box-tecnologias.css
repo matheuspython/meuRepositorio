@@ -5,6 +5,7 @@
     border: 1px solid white;
     margin: 8px auto;
     border-radius: 12px;
+    transition: .2s;
 }
 
 .box-tecnologias:hover {
