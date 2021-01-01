@@ -31,9 +31,10 @@
     height: 180px;
     width: 180px;
     border-radius: 50%;
-    transition: .4s;
+    transition: .5s;
 }
 
 .img-projeto:hover {
     border-radius: 12px;
+    width: 100%;
 }
