@@ -9,9 +9,10 @@
 }
 
 .box-tecnologias:hover {
-    width: 300px;
-    padding: 15px 0;
-    font-size: 1.2rem;
+    width: 290px;
+    padding: 10px 0;
+    font-size: 1rem;
+    margin: 3px;
 }
 
 .box-tecnologias .img {

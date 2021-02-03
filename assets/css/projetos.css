@@ -24,6 +24,8 @@
     font-size: 1.2rem;
     text-transform: uppercase;
     color: aqua;
+    display: block;
+    background-color: rgb(21, 60, 187);
 }
 
 .img-projeto {
