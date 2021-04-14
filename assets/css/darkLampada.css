@@ -1,0 +1,21 @@
+.lampada{
+  position: fixed;
+right: 15px;
+bottom: 15px;
+width: 40px;
+cursor: pointer;
+}
+.lampada img{
+  width: 130%;
+}
+.luz{
+  position: relative;
+  top: 37px;
+  right: -11px;
+  width: 30px;
+  height: 35px;
+  border-radius: 50%;
+}
+.cor{
+  background-color: rgba(196, 230, 6, 0.171);
+}
