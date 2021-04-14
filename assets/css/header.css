@@ -71,12 +71,8 @@ nav.menu-mobile ul {
         background-size: cover;
         height: 30px;
         width: 30px;
-    }
-    nav.menu-mobile {
-        display: none;
-        height: 180px;
         transition: .4s;
-    }
+    }    
     nav.menu-mobile ul {
         background-color: rgb(27, 63, 143);
         padding: 8px 0;
@@ -100,5 +96,25 @@ nav.menu-mobile ul {
         font-size: 1.58rem;
         font-weight: 700;
         color: rgb(25, 175, 221);
+    }
+    .aparece{
+        height: 180px;
+        display: block;
+    
+      }
+      .some{
+        overflow: hidden;
+        visibility: hidden;
+        display: none;
+        height: 0px;
+      
+      }
+      
+
+    nav.menu-mobile {
+        display: block;
+        transition: .4s;
+        position: relative;
+        z-index: 999;
     }
 }
