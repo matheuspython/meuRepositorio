@@ -1,7 +1,7 @@
 header.header {
     width: 100%;
     height: 70px;
-    background-color: rgb(107, 114, 121);
+    background-color: rgb(67, 80, 88);
 }
 
 .container-header {
@@ -74,7 +74,7 @@ nav.menu-mobile ul {
         transition: .4s;
     }    
     nav.menu-mobile ul {
-        background-color: rgb(27, 63, 143);
+        background-color: rgb(132, 140, 142);
         padding: 8px 0;
         list-style-type: none;
         width: 100%;
@@ -95,7 +95,7 @@ nav.menu-mobile ul {
     nav.menu-mobile ul li a:hover {
         font-size: 1.58rem;
         font-weight: 700;
-        color: rgb(25, 175, 221);
+        color: rgb(220, 247, 99);
     }
     .aparece{
         height: 180px;
