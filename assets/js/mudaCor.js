@@ -1,5 +1,6 @@
 const muda = document.querySelector('.luz')
 let teste;
+
 const elementos = [
   {
     query:document.querySelector('header.header'),
@@ -14,7 +15,21 @@ const elementos = [
       }
 
     }
-  }
+  },
+  {
+    query:document.querySelector('section.topo'),
+    cor:'rgb(22, 21, 21)',
+    outraCor:'rgb(1, 90, 97)',
+    
+    muda(teste){
+      if(teste == true){
+        mudaCor(this.query, this.outraCor)
+      }else{
+        mudaCor(this.query, this.cor)
+      }
+
+    }
+  },
 
 ]
 
