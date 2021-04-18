@@ -26,7 +26,7 @@ header.header {
     list-style-type: none;
     display: flex;
     text-transform: uppercase;
-    width: 350px;
+    width: 320px;
     justify-content: space-between;
 }
 
