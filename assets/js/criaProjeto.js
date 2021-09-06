@@ -10,7 +10,7 @@ function criaProjeto(img, texto, linkVercel, linkGithub) {
     
     <p>${texto}</p>
    
-    <a target="_blanck" href="${linkGithub}">repositorio</a>
+    <a title="link para ${texto}" target="_blanck" href="${linkGithub}">repositorio</a>
 </div>`)
 }
 

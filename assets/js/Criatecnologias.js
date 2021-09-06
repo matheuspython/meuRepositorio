@@ -6,7 +6,7 @@ function criaEl(el, classe) {
   return elemento
 }
 
-function criaTecnologia(img, tecnologia, texto) {
+function criaTecnologia(img, tecnologia, texto, alt) {
   const boxTecno = criaEl('div', 'box-tecnologias')
   const imge = criaEl('img', 'img')
   const h2 = criaEl('h2')
@@ -18,7 +18,9 @@ function criaTecnologia(img, tecnologia, texto) {
   h2.appendChild(h2Text)
   p.appendChild(pText)
 
-  imge.style.background = `url('${img}')`
+  imge.setAttribute('alt',alt)
+
+  imge.src = img
   
 
   boxTecno.appendChild(imge)
@@ -29,8 +31,8 @@ function criaTecnologia(img, tecnologia, texto) {
 }
 
 let boxes = [
-  criaTecnologia('https://www.flaticon.com/svg/static/icons/svg/1051/1051277.svg','HTML','linguagem de marcação utilizada para criação de paginas web'),
-  criaTecnologia('https://www.flaticon.com/svg/static/icons/svg/732/732190.svg','CSS', 'uma tecnologia para estilização de paginas web'),
-  criaTecnologia('https://www.flaticon.com/svg/static/icons/svg/919/919828.svg','JavaScript', 'uma das maiores linguagens de programação do mundo tem tem como objetivo criação de paginas dinamicas'),
-  criaTecnologia('https://www.flaticon.com/svg/static/icons/svg/733/733553.svg','Git','sistema de controle de verções usado para desenvolver softweres')
+  criaTecnologia('./assets/images/html-5.png','HTML','linguagem de marcação utilizada para criação de paginas web','html'),
+  criaTecnologia('./assets/images/css-3.png','CSS', 'uma tecnologia para estilização de paginas web'),
+  criaTecnologia('./assets/images/javascript.png','JavaScript', 'uma das maiores linguagens de programação do mundo tem tem como objetivo criação de paginas dinamicas'),
+  criaTecnologia('./assets/images/github2.png','Git','sistema de controle de verções usado para desenvolver softweres')
 ]
